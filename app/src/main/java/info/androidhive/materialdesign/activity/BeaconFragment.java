@@ -1,27 +1,21 @@
 package info.androidhive.materialdesign.activity;
 
-/**
- * Created by Ravi on 29/07/15.
- */
 import android.app.Activity;
-import android.app.Notification;
-import android.app.NotificationManager;
-import android.app.PendingIntent;
-import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
-import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 
 import info.androidhive.materialdesign.R;
 
+/**
+ * Created by alessandro.giacomell on 12/05/16.
+ */
+public class BeaconFragment extends Fragment
+{
 
-public class HomeFragment extends Fragment {
-
-    public HomeFragment() {
+    public BeaconFragment() {
         // Required empty public constructor
     }
 
@@ -34,7 +28,7 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_home, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_beacon, container, false);
 
 
         // Inflate the layout for this fragment

@@ -26,7 +26,50 @@
             android:id="@+id/container_body"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:background="@color/windowBackground" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView5"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="27dp"
+                    android:src="@drawable/img_54f030aa92bec_staff" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Benvenuti in Farmacia!"
+                    android:id="@+id/textView3"
+                    android:textSize="26dp"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/imageView5"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="La Farmacia San Giorgio si trova a Maser, in provincia di Treviso.
+Aperta dal lunedì al venerdì, dalle 8:30 alle 12:30 e dalle 15:45 alle 19:30 e il sabato dalle 8,30 alle 12,30. Da noi  puoi trovare reparti specifici, come quello fitoterapico, cosmetico, dietetico, omeopatico, dedicato allo sport e veterinaria, con personale laureato e specializzato.
+La farmacia è abilitata alla vendita online di cosmetici, parafarmaci, integratori alimentari naturali ed alimenti specifici, evitando code e ricevendoli comodamente a casa."
+                    android:id="@+id/textView4"
+                    android:textSize="14dp"
+                    android:layout_below="@+id/textView3"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </FrameLayout>
 
 
     </LinearLayout>

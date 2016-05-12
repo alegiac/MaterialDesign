@@ -8,16 +8,22 @@
     <string name="nav_item_home">Farmacia San Giorgio</string>
     <string name="nav_item_friends">Carta Fedeltà</string>
     <string name="nav_item_notifications">Prodotti in Offerta</string>
+    <string name="nav_item_magazine">Magazine</string>
+    <string name="nav_item_beacon">Offerta speciale!</string>
 
     <!-- navigation drawer item labels  -->
     <string-array name="nav_drawer_labels">
         <item>@string/nav_item_home</item>
         <item>@string/nav_item_friends</item>
         <item>@string/nav_item_notifications</item>
+        <item>@string/nav_item_magazine</item>
+        <item>@string/nav_item_beacon</item>
     </string-array>
 
+    <string name="title_magazine">La Nostra Rivista</string>
     <string name="title_messages">Prodotti in Offerta</string>
     <string name="title_friends">Carta Fedeltà</string>
     <string name="title_home">Farmacia San Giorgio</string>
+    <string name="title_beacon">Offerta speciale!</string>
     <string name="title_activity_splash">SplashActivity</string>
 </resources>
